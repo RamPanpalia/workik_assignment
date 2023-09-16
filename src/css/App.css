@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main-box{
+    padding: 1rem;
+}
+
+.to-box{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.add-btn{
+    padding: 1rem;
+    border: 1px solid #8e8e8e;
+    border-radius: 1rem;
+    background-color: #f1f1f1;
+    color: rgb(57, 57, 57);
+    font-size: 3rem;
+    font-weight: 800;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
