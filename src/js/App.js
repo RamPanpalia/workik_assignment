@@ -170,7 +170,7 @@ const App = () => {
 
 
   const [data, setData] = useState({
-    from: 'INR',
+    from: 'USD',
     to: [{
       symbol: 'INR',
       value: '1'

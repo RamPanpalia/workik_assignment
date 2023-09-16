@@ -48,6 +48,7 @@ const Input = (props) => {
                     fullWidth
                     size='small'
                     value={props.factor}
+                    type='number'
                     onChange={(e) => { props.setFactor(e.target.value) }}
                 />
             }
